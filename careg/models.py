@@ -45,4 +45,4 @@ class Car(models.Model):
             return ym[2:]
 
     def __str__(self):
-        return f"{self.car_brand} {self.car_model} \({self.year_model()}"
+        return f"{self.car_brand} {self.car_model} ({self.year_model()})"
